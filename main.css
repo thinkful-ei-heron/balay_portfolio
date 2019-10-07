@@ -125,7 +125,19 @@
 
   .project {
       position: relative;
-      margin: 5% 3% 5% 3%;
+      max-width: 70%;
+      max-height: 70%;
+      margin: 0 auto;
+  }
+
+  .description {
+      color: #2E2E2E;
+      background-color: rgb(255, 250, 219);
+      border-radius: 3px;
+  }
+
+  .description li i {
+    font-size: 30px;
   }
 
   .project img {
@@ -133,17 +145,20 @@
     max-width: 100%;
     max-height: 100%;
     position: relative;
+    
   }
 
   .project:hover img {
       opacity: 0.3;
       filter: alpha(opacity=30);
+      transition: all .4s ease;
+    -webkit-transition: all .4s ease;
   }
 
   .overlay {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #2E2E2E;
@@ -153,10 +168,6 @@
 
 .title {
     font-weight: bold;
-}
-
-.overlay li i {
-    font-size: 30px;
 }
 
 .hobbies li {
@@ -214,7 +225,7 @@ button:hover {
       .nav ul li {
           display: inline;
           font-size: 30px;
-          margin: 0 5% 0 5%;
+          margin: 0 10% 0 10%;
       }
 
       header {
@@ -226,7 +237,7 @@ button:hover {
           font-size: 60px;
       }
 
-      .overlay li i {
+      .description li i {
           font-size: 50px;
       }
 
@@ -239,10 +250,14 @@ button:hover {
         background-color: #FFFADB;
         padding: 1%;
         border-radius: 3px;
+        transition: all .4s ease;
+    -webkit-transition: all .4s ease;
     }
 
     .menulinks li:hover a {
       color: #2E2E2E;
+      transition: all .4s ease;
+      -webkit-transition: all .4s ease;
     }
 
   }
@@ -253,6 +268,16 @@ button:hover {
         max-width: 70%;
         max-height: 70%;
     }
+
+    .description {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 50px;
+
+    }
+ 
+
   }
 
   
