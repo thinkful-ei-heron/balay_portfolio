@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i|Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav role="navigation" class="nav">
+    <nav class="nav">
         <div class="burger"><i class="fa fa-bars"></i></div>
         <div class="menulinks hidden">
         <ul>
@@ -22,8 +22,8 @@
         </ul>
         </div>
     </nav>
-    <main role="main">
-        <header role="banner">
+    <main>
+        <header>
             <img src="images/me.png" alt="a photo of Balay Aydemir">
             <div class="hero">
             <div class="text">Balay Aydemir</div>
@@ -62,10 +62,10 @@
                         <li>An app to help you keep track of your favorite bookmarks.</li>
                         <li><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js-square"></i></li>
                 </ul>
-                <img src="images/bookmark_app.png">
+                <img src="images/bookmark_app.png" alt="bookmark app screenshot">
                 <div class="overlay hidden">
-                            <button type="button" value="See it live" onclick="window.location.href = 'https://thinkful-ei-heron.github.io/bookmark_app_balay/'">Live App</button>
-                            <button type="button" value="GitHub repo" onclick="window.location.href = 'https://github.com/thinkful-ei-heron/bookmark_app_balay'">GitHub</button>
+                            <button type="button" value="See it live" onclick="window.open('https://thinkful-ei-heron.github.io/bookmark_app_balay/', '_blank')">Live App</button>
+                            <button type="button" value="GitHub repo" onclick="window.open('https://github.com/thinkful-ei-heron/bookmark_app_balay', '_blank')">GitHub</button>
                 </div>
             </div>
             <div class="project">
@@ -74,10 +74,10 @@
                         <li>An app that helps servers keep track of their earnings.</li>
                         <li><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js-square"></i></li>
                 </ul>
-                <img src="images/waitstaff_calc.png">
+                <img src="images/waitstaff_calc.png" alt="waitstaff calc app screenshot">
                 <div class="overlay hidden">
-                            <button type="button" value="See it live" onclick="window.location.href = 'https://thinkful-ei-heron.github.io/waitstaff_calculator_balay/'">Live App</button>
-                            <button type="button" value="GitHub repo" onclick="window.location.href = 'https://github.com/thinkful-ei-heron/waitstaff_calculator_balay'">GitHub</button>
+                            <button type="button" value="See it live" onclick="window.open('https://thinkful-ei-heron.github.io/waitstaff_calculator_balay/', '_blank')">Live App</button>
+                            <button type="button" value="GitHub repo" onclick="window.open('https://github.com/thinkful-ei-heron/waitstaff_calculator_balay', '_blank')">GitHub</button>
                 </div>
             </div>
             <div class="project">
@@ -86,10 +86,10 @@
                         <li>A fun quiz to test your knowledge of the TV series Rick and Morty.</li>
                         <li><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js-square"></i></li>
                 </ul>
-                <img src="images/quiz_app.png">
+                <img src="images/quiz_app.png" alt="quiz app screenshot">
                 <div class="overlay hidden">
-                            <button type="button" value="See it live" onclick="window.location.href = 'https://thinkful-ei-heron.github.io/Alex_Balay_QuizApp/'">Live App</button>
-                            <button type="button" value="GitHub repo" onclick="window.location.href = 'https://github.com/thinkful-ei-heron/Alex_Balay_QuizApp'">GitHub</button>
+                            <button type="button" value="See it live" onclick="window.open('https://thinkful-ei-heron.github.io/Alex_Balay_QuizApp/', '_blank')">Live App</button>
+                            <button type="button" value="GitHub repo" onclick="window.open('https://github.com/thinkful-ei-heron/Alex_Balay_QuizApp', '_blank')">GitHub</button>
                 </div>
             </div>
         </section>
@@ -97,16 +97,17 @@
         <section id="contact">
             <h3>Contact</h3>
             <ul>
-                <li><a href="https://www.linkedin.com/in/balayaydemir/"><i class="fab fa-linkedin"></i> Connect</a></li>
-                <li><a href="https://github.com/balayaydemir"><i class="fab fa-github"></i> GitHub</a></li>
-                <div></div>
-                <li><a href="mailto: balayaydemir@gmail.com"><i class="fas fa-envelope-open-text"></i> Email</a></li>
+                <li><a href="https://www.linkedin.com/in/balayaydemir/" target="_blank"><i class="fab fa-linkedin"></i> Connect</a></li>
+                <li><a href="https://github.com/balayaydemir" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+            <ul>
+                <li><a href="mailto:balayaydemir@gmail.com" target="_blank"><i class="fas fa-envelope-open-text"></i> Email</a></li>
                 <li><a href="#"><i class="fas fa-file"></i> Resume</a></li>
             </ul>
         </section>
     </main>
-    <footer role="content-info">© Balay Aydemir 2019</footer>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <footer>© Balay Aydemir 2019</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="index.js"></script>
 </body>
 </html>
